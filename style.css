@@ -1,0 +1,307 @@
+/*---------------style principal--------------------*/
+h1{
+display: contents;
+}
+h3{
+    font-size: x-large;
+}
+p{
+    font-size: x-large; 
+}
+@media (min-width: 300px) {
+p{
+     width: 100%;
+}
+#sec2>div:last-child {
+            width: 100%;
+}
+.moi{
+    width: 150px;
+    height: auto;
+}
+.FT {
+    width: 90px;
+    height: auto;
+    max-width: 320px;
+}
+.DEATH{
+    width: 20px;
+    height: auto;
+    max-width: 320px;
+    }
+.SDS{
+    width: 80px;
+    height: auto;
+    max-width: 320px;
+    }
+}
+ body{
+    margin: 0px auto;
+     width: 100%;
+ }
+section{
+  padding: 2%;
+  background-color: blanchedalmond;
+  width: 100%;
+  border: solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+header{
+display: flex;
+}
+div{
+display: flex;
+}
+nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    }
+nav ul li{
+       transition: 1s;
+}
+ nav ul li a{
+    padding: 20px 20px ;
+    margin-right: 10px;
+    background-color:rgb(7, 7, 7);
+    border-radius: 50px;
+    text-decoration: none;
+}
+    nav ul li:hover{
+    transform: scale(1.3);
+    }
+ul{
+    padding: 18px 0 0 0 ;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    }
+li{
+    width: 265px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+li a{
+    color: brown;
+}
+img{ transition: 2s; }
+img:hover {  transform: scale(1.3);
+}
+footer {
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+
+
+
+/*----------------------Page d'accueil-------------------------*/
+#sec3>div{
+    background: rgb(194, 194, 194);
+    height: 500px;
+    margin: 1%;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+/*s'applique aux écrans de maximun 1024px*/
+@media (max-width: 500px) {
+  #sec3>div {
+    width: 48%;
+}
+  #sec3>div:last-child {
+    width: 100%;
+}
+}
+.moi{
+    width: 300px;
+    height: auto;
+}
+.escanor{
+    width: 300px;
+    height: auto;
+}
+#sec1>div{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+#sec2>div {
+    width: 50%;
+    align-items: center;
+}
+#sec2>div:last-child {
+    flex-direction: column;
+}
+.styled{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+#sec4>div{
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+
+
+
+/*----------------------Page Jeux-------------------------*/
+.cloud{
+    height:400px;
+    margin: 20px;
+padding: 20px;
+background-color:   rgba(148, 0, 0, 0.5);
+}
+.Perso2{
+    margin: 20px;
+    padding: 20px;
+    height: 500px;
+    background-color:   rgba(148, 0, 0, 0.507);
+}
+.perso3{
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    background-color:   rgba(148, 0, 0, 0.514);
+}
+.perso4{
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    background-color:   rgba(148, 0, 0, 0.507);
+}
+.perso5{
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    background-color:   rgba(148, 0, 0, 0.5);
+}
+.perso6{
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    background-color:   rgba(148, 0, 0, 0.5);
+}
+.mag{
+    margin: 10px;
+width: 550px;
+float:left
+}
+.tifa{
+    width: 310px;
+    float: left;
+margin: 10px;
+}
+.barret{
+    width: 350px;
+    float: left;
+margin: 10px;
+}
+.aerith{
+    width: 350px;
+    float: left;
+    margin: 10px;
+}
+.cid{
+    width: 350px;
+    float: left;
+    margin: 10px;
+}
+.sephiroth{
+    width: 350px;
+    float: left;
+    margin: 10px;
+}
+.PART2{
+    margin: 20px;
+    padding: 20px;
+    height: 500px;
+    background-color:   rgba(148, 0, 0, 0.5);
+}
+
+
+
+
+
+/*----------------------Page Formation-------------------------*/
+#sec9>div{
+    flex-direction: column;
+    text-align: center;
+    width: 30% 40% 30%;
+    align-items: center;
+}
+.FAB, .FAB2{
+    width: 300px;
+    height: auto;
+}
+.EDi{
+    width: 400px;
+    height: auto;
+}
+#sec10>div{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+
+
+/*----------------------Page Mangas-------------------------*/
+
+#sec5>div{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+#sec6>div{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+.FT{
+    width: 300px;
+    height: auto;
+}
+#sec7>div{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+.SDS{
+    width: 300px;
+    height: auto;
+}
+#sec8>div{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+.DEATH{
+    width: 500px;
+    height: auto;
+}
